@@ -1,0 +1,248 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+/*.container {
+	clip-path: polygon(40% 0, 0 0, 0 100%, 71% 100%);
+	background-color:#0E2C47!important;
+	z-index:1;
+	position: relative;
+}*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* Example
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+*/
+
+
+/* General Styles */
+body{
+	color:#333;
+}
+p, a, li{
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto', sans-serif;	
+	font-weight:bold;
+}
+.contextual-links a{
+	color:#333 !important;
+}
+#page{
+	z-index:2;
+	position: relative;
+	background-color:transparent !important;
+}
+/* Top Bar */
+#topPageBar{
+	/*background-color: #0E2C47;*/
+}
+#header{
+	background-image:url(/themes/sltl/images/header-background.svg);
+	background-repeat:no-repeat;	
+	background-size:auto;
+	width:100%;
+	padding:10px 10px;
+}
+
+#topLeftLinks{
+	margin:0px;
+	padding:0px;
+}
+#topLeftLinks a{
+	color:#1F52B3;
+	font-size:16px;
+}
+#topLeftLinks a:hover{
+	text-decoration:none;	
+}
+#topLeftLinks li{
+	display: inline-block;
+	list-style:none;
+	margin-right:1em;
+}
+#topBarSocial{
+	padding:0px;
+	float:right;
+	padding:right:1em;
+}
+#topBarSocial li{
+	display: inline-block;
+	list-style:none;
+	margin-right:1em;
+}
+#topBarSocial a{
+	color:#fff;
+	font-size:20px;
+}
+#header{
+	border-bottom:25px solid #26E6B5;
+}
+#block-mainnavigation{
+	width:50%;
+	float:right;
+}
+#bar-right-extras{
+	text-align:right;
+	padding:right:1em;
+}
+#bar-right-extras a{
+	color:#fff;
+}
+#bar-right-extras .btn-donate{
+	background-color:#26E6B5;
+	font-size:18px;
+	text-transform:uppercase;
+	margin-right:15px;
+}
+/* Home page content */
+#home-slider{width:100%;}
+.carousel-inner > .item >img{
+	width:100% !important;
+}
+#home-tagline{
+	background-color:#1F52B3;
+	padding:2em 0em;
+}
+#home-tagline h1{
+	color:#fff;
+	text-align:center;	
+}
+#home-content{
+	padding:60px 0px;
+}
+#home-programs{
+	padding:100px 0px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/themes/sltl/images/programsbg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#home-programs h2{
+	color:#26e6b6 ;
+	font-size:4em;
+	margin-bottom:2em;
+	text-align:center;
+}
+#home-programs a{
+	color:#26e6b6;
+}
+.nofightingright{
+	padding-right:8px !important;
+}
+.navbar-brand{margin-right:0px;}
+.two-fidy-pad{
+	padding: 0em 4em;
+}
+#home-volunteer{}
+.grid-image img{width:100%;height:auto;}
+/* CSS for navigation */
+#superfish-main{
+	margin-top:-2em;
+}
+#superfish-main li{
+	background-color:transparent;
+	padding:
+}
+#superfish-main li > a{
+	color:#26E6B5;
+	font-size:28px;
+	font-weight:600;
+	padding:0px 1em;
+}
+#superfish-main li > a:hover,#superfish-main li > a:active,#superfish-main li > a:focus{
+	text-decoration:none;
+	background-color:transparent;
+	color:#1CA683; 
+}
+/* CSS for the prefooter */
+.site-footer{
+	padding:0px;
+	background-color:#000;
+}
+#prefooter{
+	padding:60px 0px;
+	background-color:#0E2C47;
+}
+#prefooter p,#prefooter li{
+	color:#fff;
+}
+#prefooter a, #prefooter h2{
+	color:#26e6b6 !important;
+}
+#prefooter a:hover{
+	color:#1CA683 !important;
+	text-decoration:none;
+}
+#prefooter h2{
+	margin: 1em 0em 0em; 
+	font-size:1.7em;
+	font-weight:400;
+	margin-bottom:1em;
+}
+
+#prefooter img{
+	width:100%;
+}
+#superfish-main--2 a{
+	padding:.75em 1.5em;
+}
+#footerSocial{
+	padding:0px;
+}
+#footerSocial li{
+	display:inline-block;
+	list-style:none;
+	padding:0px 10px 0px 0px;
+}
+#footerSocial li a{
+	font-size:24px !important;
+	color:#fff !important;
+}
+#edit-email-lists--wrapper{
+	display:none;
+}
+#constant-contact-block-form-constantcontact label{
+	display:none;
+}
+#constant-contact-block-form-constantcontact input{
+	border-radius:0px !important;
+}
+/* This is for the copyright blocks */
+.site-footer .block{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#copyright {
+	background-color: #000000 !important;
+	color: #26e6b6 !important;
+	padding: 10px 0;
+	margin: auto;
+}
+
+#copyright p {
+	color: #26e6b6 !important;
+	padding: 0;
+	margin: 0;
+}
+/* CONTENT SECTIONS */
+#content, #sidebar_first, #sidebar_second{
+	padding:4em 0em;
+}
+#sidebar_first > .section{
+	padding:0em 1em;
+}
+.sidebar .block{
+	background-color:#26e6b6;
+}
+.sidebar h2{
+	background-color:transparent;
+	
+}
